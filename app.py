@@ -1,7 +1,7 @@
 from flask import Flask, send_from_directory
 import os
 
-app = Flask(__name__)
+app = Flask('irflow_integration_websvc')
 
 BASE_PATH = os.environ.get('EDL_PATH')
 
