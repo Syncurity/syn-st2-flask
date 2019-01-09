@@ -1,3 +1,7 @@
+"""
+Simple Webservice to serve text files for dynamic lists et. al
+"""
+
 from flask import Flask, send_from_directory
 import os
 
