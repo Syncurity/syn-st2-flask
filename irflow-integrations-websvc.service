@@ -1,0 +1,13 @@
+[Unit]
+Description=Integrations Webservice to Host Files that enable EDL, CheckPoint, etc.
+After=network.target
+
+[Service]
+User=irflow
+Group=irflow
+WorkingDirectory=/home/irflow/irflow-integration-websvc
+ExecStart=pipenv run ./wsgi.py
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
