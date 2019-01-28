@@ -6,7 +6,7 @@ After=network.target
 User=irflow
 Group=irflow
 WorkingDirectory=/home/irflow/irflow-integration-websvc
-ExecStart=pipenv run ./wsgi.py
+ExecStart=/bin/pipenv run ./wsgi.py
 RemainAfterExit=yes
 
 [Install]
