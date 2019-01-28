@@ -4,13 +4,8 @@ Integrations Webservice
 This repo contains the source for the Integrations Framework Webservice that presently provides support for integrations
 that rely on a remote static file for dynamically ingesting threat information.
 
-Using the Webservice in Production
-----------------------------------
-
-//TODO
-
-Setting up for Development
---------------------------
+Installing the webservice
+-------------------------
 
 Make sure you have Pipenv_ installed, and clone this repository at the same level as your irflow-integrations repository.
 
@@ -22,6 +17,16 @@ Make sure you have Pipenv_ installed, and clone this repository at the same leve
         └── irflow-integration-websvc
 
 From here, move into your newly cloned repo, and run the following:
+
+.. code-block:: shell
+
+    $ ./setup_websvc.sh
+
+Once the service has been setup once, it can be started and stopped on demand with the ``start_websvc.sh`` and
+``stop_websvc.sh`` scripts respectively.
+
+Setting up for Development
+--------------------------
 
 .. code-block:: shell
 

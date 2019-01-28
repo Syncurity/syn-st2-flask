@@ -4,10 +4,10 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
+irflow-integrations = {editable = true,path = "./../irflow-integrations"}
 
 [packages]
 flask="*"
-irflow-integrations = {editable = true,path = "./../irflow-integrations"}
 
 [requires]
 python_version = "3.6"
