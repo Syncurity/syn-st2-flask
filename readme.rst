@@ -16,7 +16,7 @@ Make sure you have Pipenv_ installed, and clone this repository at the same leve
         ├── irflow-integrations
         └── irflow-integration-websvc
 
-From here, move into your newly cloned repo, and run the following:
+From here, move into your newly cloned repo, and run the following (**Do not run as root**):
 
 .. code-block:: shell
 

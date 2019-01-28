@@ -1,5 +1,10 @@
 #!/usr/bin/env bash
 
+if [[ $EUID -eq 0 ]]; then
+    echo "This script should not be run as root!"
+    exit 1
+fi
+
 echo "===> Ensuring pipenv is installed"
 pip3 install -q --user pipenv --upgrade
 echo "===> Getting your environment set up"
