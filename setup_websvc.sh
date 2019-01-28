@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 echo "===> Ensuring pipenv is installed"
-pip3 install pipenv --upgrade
+pip3 install --user pipenv --upgrade
 echo "===> Getting your environment set up"
 pipenv install
 echo "===> Moving Unit files as needed"
