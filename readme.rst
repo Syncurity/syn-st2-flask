@@ -19,7 +19,7 @@ Make sure you have Pipenv_ installed, and clone this repository at the same leve
     .
     └── Syncurity
         ├── irflow-integrations
-        └── irflow-integrations-api
+        └── irflow-integration-websvc
 
 From here, move into your newly cloned repo, and run the following:
 
