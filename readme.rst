@@ -7,7 +7,7 @@ that rely on a remote static file for dynamically ingesting threat information.
 Installing the webservice
 -------------------------
 
-Make sure you have Pipenv_ installed, and clone this repository at the same level as your irflow-integrations repository.
+This repository should be cloned at the same level as your irflow-integrations repository:
 
 .. code-block:: shell
 
@@ -27,6 +27,10 @@ Once the service has been setup once, it can be started and stopped on demand wi
 
 Setting up for Development
 --------------------------
+
+Make sure that you have Pipenv_ installed. This is done automatically at the user level in production - install Pipenv
+as recommended on your system (generally ``pip install --user pipenv``). The project can be installed as developer with
+the following:
 
 .. code-block:: shell
 
