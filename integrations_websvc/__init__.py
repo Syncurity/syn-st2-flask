@@ -17,5 +17,4 @@ STATIC_FILES_PATH = app.config['BASE_PATH']
 
 @app.route('/lists/<path:path>')
 def get_list_at_path(path):
-    print(STATIC_FILES_PATH)
     return send_from_directory(STATIC_FILES_PATH, path)
