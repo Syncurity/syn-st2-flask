@@ -1,0 +1,3 @@
+domain,www.ynet.co.il/articles/,testname1,Ynet articles Access
+url,www.ynet.co.il/articles/,testname2,Ynet articles Access
+md5,f58628917abcbcfb2b2258b6b46bf721,testname3,Random bad hash # comment about this entry
