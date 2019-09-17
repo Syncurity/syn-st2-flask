@@ -1,9 +1,9 @@
 """
 Simple Webservice to serve text files for dynamic lists et. al
 """
+import os
 
 from flask import Flask, send_from_directory
-import os
 
 app = Flask('irflow_integration_websvc')
 
