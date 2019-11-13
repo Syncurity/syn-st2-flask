@@ -1,4 +1,4 @@
-Simple Flask Webserver to serve text files
+Simple Flask/Gunicorn/Nginx Webserver to serve text files
 
 
 To start:
