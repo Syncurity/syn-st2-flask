@@ -1,4 +1,4 @@
-FROM centos/python-36-centos7
+FROM centos/python-36-centos7:latest
 ADD . /app
 WORKDIR /app
 RUN pip install -r requirements.txt
